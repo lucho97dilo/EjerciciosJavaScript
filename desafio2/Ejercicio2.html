@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css2/style2.css">
+    <title>Document</title>
+    
+</head>
+<body>
+
+       <h1 class="fontRegular">M5 ejercicio 2 </h1>
+    <form class="row g-3 needs-validation" novalidate>
+
+        <div class="container text-center">
+           <div class="col-5 order-1 m-auto">
+               <label  class="form-label"></label>
+              <input type="number" name="monto" id="monto" class="form-control center " placeholder="Ingrese su capital"  required>
+           </div>
+
+          <div class="col order-1 mt-4 ">
+              <button class="btn btn-primary  " value="Calcular" type="button" onclick="recibir()">Calcular</button>
+              <button class="btn btn-primary" value="Borrar" type="reset" onclick="borrar()">Borrar</button>
+         </div>
+     </div> 
+
+     <div>
+         <h2 class="fontRegular">Sus gastos necesarios por %50 son</h2>
+         <p class="fontBlack" id="50"></p>
+
+         <h2 class="fontRegular">Sus gastos necesarios por %30 son</h2>
+          <p class="fontBlack" id="30"></p>
+
+         <h2 class="fontRegular">Sus gastos necesarios por %20 son</h2>
+         <p class="fontBlack" id="20"></p>
+     </div>
+ </form>
+
+     <script src="../js2/main2.js"></script>
+</body>
+</html>

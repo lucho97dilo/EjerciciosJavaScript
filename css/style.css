@@ -4,6 +4,7 @@
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11857,6 +11858,26 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.fontRegular {
+  font-family: "Mulish", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: blue;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.fontBlack {
+  font-family: "Mulish", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: red;
+  text-align: center;
+}
+
+.center {
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

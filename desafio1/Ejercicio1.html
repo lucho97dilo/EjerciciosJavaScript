@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Document</title>
 </head>
-<body>
-    <Script type="module" src="../js/main.js"></Script>
+<body class="p-4">
+  
+       <div class="container text-center">
+          <h1 class="fontRegular">M5 ejercicio 1 </h1>
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label  class="form-label"></label>
+              <input type="number" name="cf" id="cf" class="form-control" placeholder="Ingrese su costo fijo"  required>
+             
+            </div>
+            <div class="col-md-4">
+              <label class="form-label"></label>
+              <input type="number" name="pv" class="form-control" placeholder="Ingrese su precio de venta"  required>
+              
+
+            </div>
+            <div class="col-md-4">
+              <label  class="form-label"></label>
+              <div class="input-group ">
+               <input type="number" name="cv" id="cv" class="form-control" placeholder="Ingrese su costo variable"  aria-describedby="inputGroupPrepend" required>
+               
+              </div>
+
+            </div>
+          
+            
+            <div class="col order-1 mt-5">
+              <button class="btn btn-primary " value="Calcular" type="button" onclick="recibir()">Calcular</button>
+              <button class="btn btn-primary " value="Borrar" type="reset" onclick="borrar()">Borrar</button>
+            </div>
+            
+          </form>
+       </div>
+     <br/>
+       <div >
+         <h2 class="fontRegular">Su punto de equilibrio es</h2>
+         <p class="fontBlack" id="escribir"></p>
+       </div>
+      <script src="../js/main.js"></script>
+      <script type="text/javascript"></script>
+    
 </body>
-</html>
+
+
+    
+ 
+        
+ 
